@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700"
+      rel="stylesheet"
+    />
+    <title>Display Grid</title>
+  </head>
+  <body>
+    <header id="pageHeader">header</header>
+    <article id="mainArticle">
+      <h1>article</h1>
+      <input type="text" list="technologies" class="inputtext" />
+
+      <datalist id="technologies">
+        <option class="textt" value="HTML" href="#"></option>
+        <option value="Scss"></option>
+        <option value="Javascript"></option>
+        <option value="React"></option>
+        <option value="Angular"></option>
+        <option value="Vue"></option>
+      </datalist>
+
+      <section class="section">
+        <div class="container">
+          <button class="open modal" id="modalOpen">open</button>
+
+          <dialog>
+            <h2>text</h2>
+            <p>
+              Далеко-далеко за словесными горами в стране гласных и согласных
+              живут рыбные тексты. Свой букв живет предупредила он вскоре страну
+              имеет несколько текстами.
+            </p>
+            <button class="close modal">close</button>
+          </dialog>
+          <div class="posts">
+            <button class="posts__get-posts">Get posts</button>
+            <div class="wrapper">
+              <div class="post__list"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+    <aside id="mainAside" class="aside">
+      <div class="aside__btn">
+        <button class="btn btn--aside" id="btnAside">закрыть</button>
+      </div>
+    </aside>
+    <!-- <div id="siteAds">Ads</div> -->
+    <footer id="pageFooter">Footer</footer>
+
+    <script src="script/script.js"></script>
+    <script src="script/server.js"></script>
+  </body>
+</html>
